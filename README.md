@@ -1,6 +1,6 @@
 # Supysonic
 
-_Supysonic_ is a Python implementation of the [Subsonic](http://www.subsonic.org/pages/api.jsp] server API.
+_Supysonic_ is a Python implementation of the [Subsonic](http://www.subsonic.org/pages/api.jsp) server API.
 
 _Supysonic-Serverless_ is an experimental serverless implementation of _Supysonic_, currently targeting the AWS environment.
 
