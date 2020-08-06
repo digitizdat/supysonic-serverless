@@ -18,3 +18,6 @@ _Supysonic-Serverless_ is an experimental serverless fork of _Supysonic_, curren
   * I think we can genericize & modularize the FolderManager class to handle multiple types of backends.
      * Break out the current code into a filesystem FolderManager plugin/module
      * Create new code for an S3 plugin/module
+     
+* Services breakout
+  * I think we'll want a Lambda function to handle most of the API calls, one to provide that administrative front-end, which maybe we could reformulate as an SPA in a S3 bucket, and then one to be triggered by S3 bucket adds to refresh the index.
